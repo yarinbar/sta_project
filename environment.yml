@@ -1,0 +1,42 @@
+name: sta
+channels:
+  - pytorch
+  - defaults
+  - conda-forge
+dependencies:
+  - python=3.7.4
+  - pytorch=1.3.0
+  - torchvision=0.4.1
+  - torchtext
+  - tqdm
+  - dill
+  - pillow<7.0 # version 7 breaks torchvision 0.4.2 and earlier
+  - ipython>=7.9
+  - numpy
+  - tqdm
+  - scikit-learn
+  - cudatoolkit
+  - jupyterlab
+  - matplotlib
+  - jupyter
+  - pandas
+  - cython
+  - pytest
+  - tqdm
+  - opencv
+  - torchaudio
+  - ffmpeg>4.1
+  - freetype>=2.10
+  - swig # for box2d on Windows
+  - pip
+  - pip:
+    - scipy==1.5.2
+    - torchaudio==0.6.0
+    - torchtext
+    - nbmerge
+    - pytest-xdist
+    - gym
+    - atari-py
+    - box2d-py
+    - spacy
+
