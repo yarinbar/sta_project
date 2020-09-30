@@ -1,3 +1,5 @@
+<img src="https://render.githubusercontent.com/render/math?math=e^{i \pi} = -1">
+
 ## Specto-Temporal Attention
 
 In this project we will overview our project that offered a new variation to the existing STA. We will go over the installation, code base and will demonstrate the capabilities of our models and visualize the results.
@@ -7,6 +9,7 @@ In this project we will overview our project that offered a new variation to the
 
 ```
 cd project
+conda env create -f environment.yml
 conda env update
 conda activate sta
 ```
