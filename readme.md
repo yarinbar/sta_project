@@ -82,7 +82,7 @@ print('Using device:', device)
 
 Firstly, let's explore the data we are working with.
 
-We will load the training set from `data/test`. There are two datasets, one that uses pure-periodic functions such as $ \sin(x)$ and the other uses pseudo-periodic functions like $\sin(|x|^ {1.2} )$ where the cycle time vary.
+We will load the training set from `data/test`. There are two datasets, one that uses pure-periodic functions such as <img src="https://render.githubusercontent.com/render/math?math=\sin(x)"> and the other uses pseudo-periodic functions like <img src="https://render.githubusercontent.com/render/math?math=\sin(|x|^{1.1})"> where the cycle time vary.
 
 To handle the datasets properly we have to understand their dimensions. Each dataset has the shape of `[batch_size, 2*L, B*K]` where:
 
